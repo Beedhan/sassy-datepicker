@@ -37,11 +37,11 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "module": "dist/sassy-datepicker.esm.js",
-   "style": "dist/styles.css",
   "exports": {
     "require": "./dist/sassy-datepicker.cjs.production.min.js",
     "import": "./dist/sassy-datepicker.esm.js",
-    "default": "./dist/index.js"
+    "default": "./dist/index.js",
+    "styles.css":"./dist/styles.css"
   },
   "devDependencies": {
     "@size-limit/preset-small-lib": "^6.0.4",
