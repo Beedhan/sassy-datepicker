@@ -12,9 +12,6 @@
   "bugs": {
     "url": "https://github.com/sassy-labs/datepicker/issues"
   },
-  "sideEffects": [
-    "*.css"
-  ],
   "keywords": [
     "react",
     "date-picker",
@@ -36,6 +33,10 @@
   "files": [
     "dist",
     "src"
+  ],
+  "style": "dist/styles.css",
+  "sideEffects": [
+    "**/*.css"
   ],
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
