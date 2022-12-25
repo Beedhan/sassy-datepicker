@@ -34,10 +34,6 @@
     "dist",
     "src"
   ],
-  "style": "dist/styles.css",
-  "sideEffects": [
-    "**/*.css"
-  ],
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "module": "dist/sassy-datepicker.esm.js",
